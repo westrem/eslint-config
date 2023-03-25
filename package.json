@@ -1,0 +1,39 @@
+{
+  "name": "@westrem/eslint-config",
+  "version": "1.0.0",
+  "description": "Shareable config for ESLint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:westrem/eslint-config.git"
+  },
+  "homepage": "https://github.com/westrem/eslint-config#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "Jan Jadud <dev@gojadud.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-compat": "4.0.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-security": "^1.7.1",
+    "typescript": "^5.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "linting"
+  ],
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint-config-prettier": "^8.8.0"
+  }
+}

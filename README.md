@@ -22,6 +22,17 @@ yarn add --dev @westrem/eslint-config eslint @typescript-eslint/eslint-plugin es
 }
 ```
 
+```
+// package.json
+{
+  "scripts": {
+    ...,
+    "lint:eslint": "./node_modules/.bin/eslint src --ignore-path .gitignore --ext .ts,.tsx --cache --cache-location .cache/eslint/ --max-warnings 0",
+    "fix:eslint": "eslint src/** --ignore-path .gitignore --ext .ts,.tsx --cache --cache-location .cache/eslint/ --fix",
+  }
+}
+```
+
 ----
 
 ## Sources
